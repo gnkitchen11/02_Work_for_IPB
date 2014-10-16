@@ -1,0 +1,17 @@
+demo()
+demo(graphics)
+setwd("~/Documents/R Work/R Script")
+ls()
+dir
+dir()
+source("setup_r.R")
+ls()
+install.packages("glmnet")
+require(glmnet)
+?xlsx
+?knitr
+?glmnet
+?coefplot
+?Rcpp
+gcookbook
+?gcookbook

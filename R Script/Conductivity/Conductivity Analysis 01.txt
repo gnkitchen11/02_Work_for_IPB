@@ -1,0 +1,5 @@
+# File to read conductivity data from csv file into R
+
+setwd("~/Documents/R Work/R Script")
+
+CondData <- read.csv(file = "~/Documents/IPB Work/Excel Work/Conductivity data 01.csv", header = TRUE, sep = "," )

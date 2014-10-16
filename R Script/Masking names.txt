@@ -1,0 +1,29 @@
+# What does it mean to have objects masked from packages?
+#
+# For example:
+#
+#Attaching package: ‘dplyr’
+#
+The following objects are masked from ‘package:stats’:
+#
+#    filter, lag
+#
+#The following objects are masked from ‘package:base’:
+#
+#    intersect, setdiff, setequal, union
+#
+#
+#Attaching package: ‘chron’
+#
+#The following objects are masked from ‘package:lubridate’:
+#
+#   days, hours, minutes, seconds, years
+#
+#The warning is telling me that in loading a package a dataframe has been made
+#available and that the dataframe has a column name (variable name) that is in 
+#conflict with a function name in a package. If the dataframe column name is not 
+#masked from the package, you would have a problem using the package.
+#This is a result of the way R searches for objects.
+
+
+
